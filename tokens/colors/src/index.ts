@@ -1,7 +1,8 @@
 export const colors = {
   colors: {
     text: '#000',
-    foregroundPrimary: '272321',
+    foregroundPrimary: '#272321',
+    foregroundSecondary: '#83796f',
     background: '#fff',
     primary: '#07c',
     primaryHover: '#0077ccaa',
