@@ -19,6 +19,7 @@
     "@divriots/dockit-react": "^0.0.84",
     "@mdx-js/react": "^1.6.22",
     "@types/styled-components": "^5.1.10",
-    "deepmerge": "^4.2.2"
+    "deepmerge": "^4.2.2",
+    "style-dictionary": "^4.3.0"
   }
 }
