@@ -1,0 +1,832 @@
+{
+  "Decision": {
+    "Brand": {
+      "$type": "string",
+      "$value": "{Font.Family.Primary}",
+      "$description": "",
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "variableId": "VariableID:11:6",
+          "collection": {
+            "id": "VariableCollectionId:3:70",
+            "name": "Decision",
+            "defaultModeId": "3:1"
+          }
+        }
+      }
+    },
+    "Accent": {
+      "$type": "string",
+      "$value": "{Font.Family.Secondary}",
+      "$description": "",
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "variableId": "VariableID:11:7",
+          "collection": {
+            "id": "VariableCollectionId:3:70",
+            "name": "Decision",
+            "defaultModeId": "3:1"
+          }
+        }
+      }
+    },
+    "Weight": {
+      "$type": "string",
+      "$value": "{Font.Weight.base}",
+      "$description": "",
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "variableId": "VariableID:11:8",
+          "collection": {
+            "id": "VariableCollectionId:3:70",
+            "name": "Decision",
+            "defaultModeId": "3:1"
+          }
+        }
+      }
+    },
+    "Line-height": {
+      "$type": "dimension",
+      "$value": "{Font.Line Height.base}",
+      "$description": "",
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "variableId": "VariableID:11:12",
+          "collection": {
+            "id": "VariableCollectionId:3:70",
+            "name": "Decision",
+            "defaultModeId": "3:1"
+          }
+        }
+      }
+    },
+    "Size": {
+      "$type": "dimension",
+      "$value": "{Font.Size (16px body).base}",
+      "$description": "",
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "variableId": "VariableID:11:13",
+          "collection": {
+            "id": "VariableCollectionId:3:70",
+            "name": "Decision",
+            "defaultModeId": "3:1"
+          }
+        }
+      }
+    },
+    "Color": {
+      "Background": {
+        "Brand": {
+          "Rest": {
+            "$type": "color",
+            "$value": "{Colors.Jelly Bean.500}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:12:13",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Colors.Jelly Bean.800}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:12:16",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Colors.Jelly Bean.600}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:12:17",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Focus": {
+            "$type": "color",
+            "$value": "{Decision.Color.Background.Brand.Rest}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:21:22",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Selected": {
+            "$type": "color",
+            "$value": "{Colors.Jelly Bean.700}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:21:4626",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          }
+        },
+        "Secondary": {
+          "Rest": {
+            "$type": "color",
+            "$value": "{Colors.Sandrift.100}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:29:43839",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Colors.Sandrift.200}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:29:43840",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Colors.Sandrift.400}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:29:43841",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Selected": {
+            "$type": "color",
+            "$value": "{Colors.Sandrift.300}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:29:43842",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Focus": {
+            "$type": "color",
+            "$value": "{Decision.Color.Background.Secondary.Rest}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:29:43843",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          }
+        },
+        "Danger": {
+          "Rest": {
+            "$type": "color",
+            "$value": "{Colors.Red.600}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:29:43851",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Colors.Red.700}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:29:43852",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Colors.Red.800}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:29:43853",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Selected": {
+            "$type": "color",
+            "$value": "{Colors.Red.700}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:29:43854",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Focus": {
+            "$type": "color",
+            "$value": "{Decision.Color.Background.Danger.Rest}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:29:43855",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          }
+        },
+        "Primary": {
+          "Rest": {
+            "$type": "color",
+            "$value": "{Colors.Sandrift.50}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:32:117",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Colors.Sandrift.100}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:32:118",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Colors.Sandrift.200}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:32:119",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Selected": {
+            "$type": "color",
+            "$value": "{Colors.Sandrift.100}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:32:120",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Focus": {
+            "$type": "color",
+            "$value": "{Decision.Color.Background.Primary.Rest}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:32:121",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          }
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Colors.Sandrift.50}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:32:157",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        }
+      },
+      "Border": {
+        "onDanger": {
+          "$type": "color",
+          "$value": "{Colors.Red.900}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:21:4627",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "onBrand": {
+          "Focus": {
+            "$type": "color",
+            "$value": "{Colors.Jelly Bean.800}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:21:4636",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          }
+        },
+        "Danger": {
+          "$type": "color",
+          "$value": "{Colors.Red.600}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:52:127",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "Primary": {
+          "_Rest": {
+            "$type": "color",
+            "$value": "{Colors.Sandstone.500}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:52:129",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Focus": {
+            "$type": "color",
+            "$value": "{Decision.Color.Border.Primary._Rest}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:52:133",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Foreground": {
+        "onBrand": {
+          "Rest": {
+            "$type": "color",
+            "$value": "{Colors.Jelly Bean.950}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:21:4649",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Hover": {
+            "$type": "color",
+            "$value": "{Colors.Jelly Bean.950}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:21:4650",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Pressed": {
+            "$type": "color",
+            "$value": "{Colors.Jelly Bean.50}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:21:4651",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Selected": {
+            "$type": "color",
+            "$value": "{Colors.Jelly Bean.0}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:21:4652",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          },
+          "Focus": {
+            "$type": "color",
+            "$value": "{Colors.Jelly Bean.950}",
+            "$description": "",
+            "$extensions": {
+              "mode": {},
+              "figma": {
+                "variableId": "VariableID:21:4653",
+                "collection": {
+                  "id": "VariableCollectionId:3:70",
+                  "name": "Decision",
+                  "defaultModeId": "3:1"
+                }
+              }
+            }
+          }
+        },
+        "onSecondary": {
+          "$type": "color",
+          "$value": "{Colors.Sandrift.950}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:32:123",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "onDanger": {
+          "$type": "color",
+          "$value": "{Colors.Red.100}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:32:135",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "onDisabled": {
+          "$type": "color",
+          "$value": "{Colors.Sandrift.200}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:32:163",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "onPrimary": {
+          "$type": "color",
+          "$value": "{Colors.Sandrift.900}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:32:164",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "Primary": {
+          "$type": "color",
+          "$value": "{Colors.Sandstone.950}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:38:980",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "Secondary": {
+          "$type": "color",
+          "$value": "{Colors.Sandstone.500}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:38:981",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "Disabled": {
+          "$type": "color",
+          "$value": "{Colors.Sandrift.200}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:46:134",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "Danger": {
+          "$type": "color",
+          "$value": "{Colors.Red.600}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:46:253",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Text-styles": {
+      "Button Default": {
+        "Weight": {
+          "$type": "string",
+          "$value": "{Font.Weight.500}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:14",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "Size": {
+          "$type": "dimension",
+          "$value": "{Font.Size (16px body).base}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:15",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "Line-height": {
+          "$type": "dimension",
+          "$value": "{Font.Line Height.base}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:16",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        }
+      },
+      "Body Small": {
+        "Weight": {
+          "$type": "string",
+          "$value": "{Font.Weight.base}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:17",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "Size": {
+          "$type": "dimension",
+          "$value": "{Font.Size (16px body).sm}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:18",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        },
+        "Line-height": {
+          "$type": "dimension",
+          "$value": "{Font.Line Height.sm}",
+          "$description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:11:19",
+              "collection": {
+                "id": "VariableCollectionId:3:70",
+                "name": "Decision",
+                "defaultModeId": "3:1"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
